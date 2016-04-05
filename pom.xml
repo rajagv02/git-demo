@@ -22,4 +22,23 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+
+   <scm>
+  <connection>scm:git:git@github.com:rajagv02/git-demo.git</connection>
+  <url>scm:git:git@github.com:rajagv02/git-demo.git</url>
+  <developerConnection>scm:git:git@github.com:rajagv02/git-demo.git</developerConnection>
+  </scm>
+
+<build>
+<plugins>
+<plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.2.2</version>
+      </plugin>
+    </plugins>
+  </build>
+
+
 </project>
